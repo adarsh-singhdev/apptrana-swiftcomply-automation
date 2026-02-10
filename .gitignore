@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Browser and Test artifacts
+edge-profile/
+chrome-profile/
+firefox-profile/
+storageState.json
+.auth/
+
+# Test reports and logs
+test-results/
+coverage/
+*.log
+logs/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+.cache/
+
+# Automation tool artifacts
+screenshots/
+videos/
